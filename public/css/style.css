@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+img {
+  display: flex;
+  border-radius: 9999px;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  max-width: 100%;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+h1 h2 {
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+}
+
+.container {
+  max-width: 42rem;
+  margin: 32px auto;
+  padding: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.resume-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  /* text-transform: uppercase; */
+}
+.objective {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.objective-des {
+  margin-top: 5px;
+  color: rgba(107, 114, 128, 1);
+}
+
+.img-profile {
+  flex-shrink: 0;
+}
+.address-section {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.address {
+  color: #9ca0a8;
+  text-decoration: none;
+}
+.address:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 6px;
+  background-color: #fff;
+  color: #666;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.contact a:hover {
+  background-color: rgb(49 62 186 / 10%);
+  color: rgb(15 23 42);
+  border-color: rgb(226, 232, 240);
+}
+
+.contact svg {
+  width: 0.875rem;
+  height: 1.25rem;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: ;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  margin-top: 32px;
+}
+
+.work-experience {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+
+.detail-w-e {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-role {
+  margin: 6px 0px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.2rem;
+  align-items: flex-start;
+}
+
+.company {
+  text-transform: capitalize;
+}
+.resume-about {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+}
+
+.resume-work-experience {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+}
+
+.role-locate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.role-locate > p.role,
+.role-locate > p.location {
+  margin-right: 0.5rem;
+  display: inline;
+}
+
+.role-locate > div {
+  margin-left: auto;
+}
+
+.role-locate > div .time {
+  white-space: nowrap;
+  color: #54575e;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.location {
+  display: flex;
+  padding: 0.125rem 7px;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  gap: 10px;
+  background-color: #eeeff0;
+  color: #666;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  margin-top: 20px;
+}
+.edu-des {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.5rem;
+  color: rgba(107, 114, 128, 1);
+}
+
+.edu-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.edu-time {
+  color: rgb(107 114 128 / 60%);
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  margin-top: 20px;
+}
+
+.resume-skills {
+  font-weight: 700;
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  font-size: 20px;
+}
+
+.resume-des {
+  color: rgb(107 114 128);
+}
+
+.work-des {
+  color: rgb(107 114 128);
+}
+
+.ul-skills {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0;
+}
+
+li div {
+  font-weight: 600;
+  padding: 2px 8px;
+  background-color: rgba(15, 23, 42, 0.8);
+  border-radius: 10px;
+  color: white;
+  border-width: 1px;
+  text-wrap: wrap;
+  align-items: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.resume-education {
+  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+@media print {
+  .print\:mb-4 {
+    margin-bottom: 1rem; /* 16px */
+  }
+}
