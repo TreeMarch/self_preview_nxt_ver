@@ -144,6 +144,11 @@ h1 h2 {
 
 .project-role {
   margin: 6px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-self: stretch;
+  flex-wrap: wrap;
 }
 
 .project {

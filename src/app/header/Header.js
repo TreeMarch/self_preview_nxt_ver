@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className="header">
         <div className="objective">
-          <h1 className="resume-name">Trần Trọng Trình</h1>
+          <h1 className="resume-name">Tran Trong Trinh</h1>
           <div className="objective-des">
             <p>
               A motivated and skilled FullStack Developer Intern with a strong
@@ -16,8 +16,14 @@ const Header = () => {
             </p>
           </div>
           <p className="address-section">
-            <a className="address" href="#">
-              Tô Hiệu, Cầu Giấy, Hà Nội, Việt Nam
+            <a
+              className="address"
+              href="https://www.google.com/maps/search/T%C3%B4%20Hi%E1%BB%87u%2C%20C%E1%BA%A7u%20Gi%E1%BA%A5y%2C%20H%C3%A0%20N%E1%BB%99i%2C%20Vi%E1%BB%87t%20Nam"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Location: Tô Hiệu, Cầu Giấy, Hà Nội, Việt Nam"
+            >
+              To Hieu, Cau Giay, Ha Noi
             </a>
           </p>
           <div className="contact">

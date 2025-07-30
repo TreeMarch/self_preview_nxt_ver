@@ -13,7 +13,7 @@ const Skills = () => {
             <div>JavaScript</div>
           </li>
           <li>
-            <div>ReactJs</div>
+            <div>NodeJs</div>
           </li>
           <li>
             <div>Tailwindcss</div>
