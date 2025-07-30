@@ -7,34 +7,31 @@ const Skills = () => {
         <h2 className="resume-skills">Skills</h2>
         <ul className="ul-skills">
           <li>
+            <div>JavaScript</div>
+          </li>
+           <li>
+            <div>Node.js</div>
+          </li>
+          <li>
+            <div>PHP & Laravel</div>
+          </li>
+          <li>
             <div>HTML/CSS</div>
           </li>
           <li>
-            <div>JavaScript</div>
+            <div>TailwindCSS</div>
           </li>
           <li>
-            <div>NodeJs</div>
+            <div>Python</div>
           </li>
           <li>
-            <div>Tailwindcss</div>
+            <div>RESTful APIs</div>
           </li>
           <li>
-            <div>PHP</div>
+            <div>MySQL & PostgreSQL</div>
           </li>
           <li>
-            <div>Laravel</div>
-          </li>
-          <li>
-            <div>ExpressJS</div>
-          </li>
-          <li>
-            <div>MySQL</div>
-          </li>
-          <li>
-            <div>PostgreSQL</div>
-          </li>
-          <li>
-            <div>Git</div>
+            <div>Git & Version Control</div>
           </li>
         </ul>
       </div>

@@ -7,15 +7,15 @@ const AboutMe = () => {
         <h2 className="resume-about">About</h2>
         <div>
           <p className="resume-des">
-            A dedicated and enthusiastic FullStack Developer Intern with a
+            A dedicated and enthusiastic Backend Developer Intern with a
             strong academic background in FullStack Programming and Geographic
             Information Technology.
           </p>
           <p className="resume-des">
-            Experienced in front-end and back-end development, with a focus on
-            modern technologies such as React, TypeScript, and Laravel. Adept at
-            working in agile environments and committed to continuous learning
-            and professional growth.
+            Specialized in server-side development, database management, and API design. 
+            Experienced with Node.js, PHP Laravel, and database technologies including 
+            MySQL and PostgreSQL. Passionate about building scalable backend systems 
+            and committed to continuous learning in backend architecture and best practices.
           </p>
         </div>
       </div>
