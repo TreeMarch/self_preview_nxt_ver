@@ -9,7 +9,7 @@ function WorkExperience() {
           <div className="project">
             <div className="top-detail-project">
               <div className="role-locate">
-                <p className="role">Technician</p>
+                <p className="role">Technician - Group Project</p>
                 <p className="location">Remote</p>
                 <div>
                   <p className="time">Jul 2024 - Aug 2024</p>
@@ -23,12 +23,12 @@ function WorkExperience() {
                   </p>
                 </div>
                 <p className="work-des">
-                  Developed a full-stack project where users input story
-                  details, which are sent to the ChatGPT API to generate
-                  summaries. These summaries are stored in a database and
-                  reviewed by users, who can select and modify the final story.
-                  The project uses PHP Laravel, JavaScript, Bootstrap, Yarn,
-                  MySQL, and the GPT-3 API.
+                  Developed a full-stack project focusing on backend architecture 
+                  where user story inputs are processed through the ChatGPT API. 
+                  Implemented RESTful APIs, database schema design, and data 
+                  management using PHP Laravel framework. Managed MySQL database 
+                  operations, API integrations, and server-side logic for story 
+                  generation and user content management.
                 </p>
               </div>
             </div>
@@ -53,10 +53,11 @@ function WorkExperience() {
                   </p>
                 </div>
                 <p className="work-des">
-                  Participated in real-world projects, working with modern
-                  technologies such as React and TypeScript. Contributed to the
-                  development of front-end features using Tailwindcss and
-                  PostgreSQL.
+                  Contributed to backend development of real-world projects, 
+                  working with modern server-side technologies. Developed RESTful 
+                  APIs, implemented database interactions with PostgreSQL, and 
+                  handled server-side logic. Gained experience in API design, 
+                  database optimization, and backend architecture patterns.
                 </p>
               </div>
             </div>
@@ -80,14 +81,12 @@ function WorkExperience() {
                   </p>
                 </div>
                 <p className="work-des">
-                  {/* Led the development of a web application for managing gas
-                  stations in Hanoi. Utilized Node.js, Tailwindcss, PostgreSQL,
-                  and ExpressJS. Implemented features for CRUD operations,
-                  search, and directions to gas stations. */}
-                  Led the development of a full-stack project that allows users
-                  to view gas station details, search for the nearest gas
-                  station, and get directions. The project uses Node.js,
-                  TailwindCSS, PostgreSQL, and ExpressJS.
+                  Developed the backend system for a gas station management application 
+                  for Hanoi in collaboration with team members. Built RESTful APIs using 
+                  Node.js and Express.js, designed PostgreSQL database schema, and 
+                  implemented server-side features for CRUD operations, location-based 
+                  search, and route calculation. Contributed to API endpoints for mobile 
+                  and web client integration.
                 </p>
               </div>
             </div>

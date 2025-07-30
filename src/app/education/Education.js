@@ -11,7 +11,7 @@ const Education = () => {
               <div className="place-time">
                 <div className="edu-detail">
                   <h3>FPT Aptech</h3>
-                  <div className="edu-time">2023 - Present</div>
+                  <div className="edu-time">2023 - 2024</div>
                 </div>
               </div>
             </div>
