@@ -92,14 +92,38 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <span className="img-profile">
+        {/* <span className="img-profile">
           <Image
-            src="/img/profile.png"
+            src="/img/profile2.png"
             alt="Trần Trọng Trình profile picture"
-            width={150} // Set appropriate width
-            height={150} // Set appropriate height
+            width={150}
+            height={150}
+            priority
           />
-        </span>
+        </span> */}
+
+        <div
+          style={{
+            width: "7rem",
+            height: "7rem",
+            borderRadius: "50%",
+            overflow: "hidden",
+          }}
+        >
+          <Image
+            src="/img/profile2.png"
+            alt="Avatar"
+            width={112}
+            height={112}
+            unoptimized
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "0px -10px", // dịch xuống 20px
+            }}
+          />
+        </div>
       </header>
     </div>
   );
