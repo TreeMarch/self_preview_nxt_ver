@@ -27,7 +27,7 @@ const Header = () => {
             </a>
           </p>
           <div className="contact">
-            <a href="mailto:your-email@example.com" aria-label="Email">
+            <a href="mail-to: m5c0traan@gmail.com" aria-label="Email">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -92,16 +92,6 @@ const Header = () => {
             </a>
           </div>
         </div>
-        {/* <span className="img-profile">
-          <Image
-            src="/img/profile2.png"
-            alt="Trần Trọng Trình profile picture"
-            width={150}
-            height={150}
-            priority
-          />
-        </span> */}
-
         <div
           style={{
             width: "7rem",

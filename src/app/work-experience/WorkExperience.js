@@ -67,7 +67,7 @@ function WorkExperience() {
           <div className="project">
             <div className="top-detail-project">
               <div className="role-locate">
-                <p className="role">Development Team Leader</p>
+                <p className="role">Development Team Leader - Group Project</p>
                 <p className="location">Remote</p>
                 <div>
                   <p className="time">Dec 2024 - Dec 2024</p>
@@ -76,9 +76,7 @@ function WorkExperience() {
               <div>
                 <div>
                   <p className="project-role">
-                    <span className="company">l4gashn - group project</span>
-                    <span>.</span>
-                    <span>Development Team Leader</span>
+                    <span className="company">l4gashn (Development Team Leader)</span>
                   </p>
                 </div>
                 <p className="work-des">
