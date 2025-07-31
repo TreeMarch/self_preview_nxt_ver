@@ -27,7 +27,7 @@ const Header = () => {
             </a>
           </p>
           <div className="contact">
-            <a href="mail-to: m5c0traan@gmail.com" aria-label="Email">
+            <a href="mailto:m5c0traan@gmail.com" aria-label="Email">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -46,7 +46,6 @@ const Header = () => {
             <a
               href="tel:0337321659"
               aria-label="Phone"
-              target="_blank"
               rel="noopener noreferrer"
               className="contact-link"
             >
