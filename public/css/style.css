@@ -36,9 +36,9 @@ p {
   line-height: 1.25rem;
 }
 
-h1 h2 {
+/* h1 h2 {
   font-family: JetBrains Mono, JetBrains Mono Fallback;
-}
+} */
 
 .container {
   max-width: 42rem;
@@ -167,13 +167,13 @@ h1 h2 {
 .resume-about {
   font-size: 20px;
   line-height: 28px;
-  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  /* font-family: JetBrains Mono, JetBrains Mono Fallback; */
 }
 
 .resume-work-experience {
-  font-size: 18px;
-  line-height: 28px;
-  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  /* font-family: JetBrains Mono, JetBrains Mono Fallback; */
 }
 
 .role-locate {
@@ -246,7 +246,7 @@ h1 h2 {
 
 .edu-time {
   color: #54575e;
-  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  /* font-family: JetBrains Mono, JetBrains Mono Fallback; */
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
@@ -260,7 +260,7 @@ h1 h2 {
 
 .resume-skills {
   font-weight: 700;
-  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  /* font-family: JetBrains Mono, JetBrains Mono Fallback; */
   font-size: 20px;
 }
 
@@ -302,7 +302,7 @@ footer {
 }
 
 .resume-education {
-  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  /* font-family: JetBrains Mono, JetBrains Mono Fallback; */
   font-weight: 700;
   line-height: 28px;
   font-size: 20px;
