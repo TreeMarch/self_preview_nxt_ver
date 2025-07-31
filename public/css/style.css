@@ -52,10 +52,10 @@ p {
   gap: 1rem;
 }
 .resume-name {
-  font-weight: 700;
+  font-weight: bold !important;
   font-size: 1.5rem;
   line-height: 2rem;
-  font-family: JetBrains Mono, JetBrains Mono Fallback;
+  font-family: Tahoma, sans-serif;
   text-transform: uppercase;
 }
 .objective {
